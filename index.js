@@ -13,7 +13,7 @@ app.set('views', './views');
 
 
 app.use('/',function(req,res){
-    return res.render('home');
+    return res.send('<h1> hello </h1>')
 });
 
 // const db= require('./mongoose');
